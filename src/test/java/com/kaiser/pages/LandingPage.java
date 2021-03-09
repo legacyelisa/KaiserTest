@@ -29,7 +29,7 @@ public class LandingPage {
         WebElement pass=driver.findElement(By.xpath("//input[@id='password']"));
         WebElement signin=driver.findElement(By.xpath("//button[normalize-space()='Sign in']"));
         userNAme.sendKeys("elisalegacy");
-        pass.sendKeys("Limonata1-");
+        pass.sendKeys("");
         signin.click();*/
         System.out.println("/n==============");
         Scanner sc =new Scanner(System.in) ;
